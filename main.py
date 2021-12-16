@@ -110,6 +110,10 @@ async def root():
 async def random_joke():
     return random.choice(JOKES)
 
+# this endpoint returns a NASA joke
+@app.get("/NASA") 
+async def all_jokes():
+    return JOKES[-2]
 
 @app.get("/joke-of-the-year") 
 async def joke_of_the_year():
