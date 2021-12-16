@@ -115,6 +115,11 @@ async def random_joke():
 async def all_jokes():
     return JOKES[-2]
 
+     this endpoint returns a pork joke
+@app.get("/pork") 
+async def all_jokes():
+    return JOKES[-4]
+
 @app.get("/joke-of-the-year") 
 async def joke_of_the_year():
     return JOKES[0]
