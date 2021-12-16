@@ -96,6 +96,9 @@ JOKES = [
     {
         "question": "Why are elevator jokes so classic and good?",
         "answer": "They work on many levels."
+    },
+    {"question":  "What did the dear say when she came out of the woods? ",
+    "answer":  "I'll never do that for two bucks again."
     }
 ]
 
